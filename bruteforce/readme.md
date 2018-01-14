@@ -3,7 +3,7 @@
 This program tests every permutation of an array of numbers, looking for solutions to the square-sum problem. It is very slow (O(n*n!) computation time). This will calculate for each problem-set (1-n) from the start value of n to the max value of n as defined in the program arguments.
 
 **Usage:** 
-- node index.js [start] <max> [showMultiple]
+- node index.js [start] [max] [showMultiple]
 
 **Example:** node index.js 25 true
 
