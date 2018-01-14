@@ -11,3 +11,20 @@ This program tests every permutation of an array of numbers, looking for solutio
 *max* - (required) the high value of *n* of the largest problem-set (1-n). Should be larger than the value choosen for *start*.  
 *showMultiple* - (optional) show multiple results for each problem set. [true/false] Default = false
 
+Example Output for *node index.js 15 25 false*  
+```
+Square-Sum Problem: Bruteforce Solution
+15: 8-1-15-10-6-3-13-12-4-5-11-14-2-7-9
+16: 8-1-15-10-6-3-13-12-4-5-11-14-2-7-9-16
+17: 16-9-7-2-14-11-5-4-12-13-3-6-10-15-1-8-17
+18: No Solution
+19: No Solution
+20: No Solution
+21: No Solution
+22: No Solution
+23: 2-23-13-12-4-21-15-10-6-19-17-8-1-3-22-14-11-5-20-16-9-7-18
+24: No Solution
+25: 2-23-13-12-24-25-11-14-22-3-1-8-17-19-6-10-15-21-4-5-20-16-9-7-18
+Solutions Found: 5
+Time elapsed: 30 ms
+```
